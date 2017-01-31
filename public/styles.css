@@ -17,16 +17,24 @@ section {
 }
 
 .picture {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./images/hiking.jpg') no-repeat center center;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('./images/soundboard.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size:  cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 95vh;
+  width: 100vw;
   color: white;
 }
 
+.sign-up {
+  padding-top: 100px;
+  margin-left: 200px;
+}
+
 .form-inline .form-group {
-  margin-right: 5px;
+  /*margin-left: 0px;*/
+  margin-bottom: 10px;
 }
 
 .center-div{
@@ -45,10 +53,10 @@ section {
   color: white;
 }
 
-.less-padding {
-   
+.day {
+  background: #ffffff;
+  color: #3B3B3B;
 }
-
 
 .col-input-left {
   padding-right: 3px;
